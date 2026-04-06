@@ -3,19 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+        <title>Danifer24 | Arte y proyecto creativo</title>
+        <meta name="description" content="Sitio oficial de Danifer24: arte, trayectoria y próximas presentaciones del proyecto creativo.">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Danifer24">
+        <link rel="canonical" href="index.html">
+
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="es_ES">
+        <meta property="og:title" content="Danifer24 | Arte y proyecto creativo">
+        <meta property="og:description" content="Descubre el universo artístico de Danifer24: sobre mí, trayectoria y presentaciones.">
+        <meta property="og:url" content="index.html">
+        <meta property="og:site_name" content="Danifer24">
+
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:title" content="Danifer24 | Arte y proyecto creativo">
+        <meta name="twitter:description" content="Descubre el universo artístico de Danifer24: sobre mí, trayectoria y presentaciones.">
+
     <link rel="stylesheet" href="style.css">
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@graph": [
+                {
+                    "@type": "WebSite",
+                    "name": "Danifer24",
+                    "url": "index.html",
+                    "inLanguage": "es"
+                },
+                {
+                    "@type": "Person",
+                    "name": "Danifer24",
+                    "jobTitle": "Artista",
+                    "url": "sobre-mi.html"
+                },
+                {
+                    "@type": "WebPage",
+                    "name": "Inicio",
+                    "url": "index.html",
+                    "isPartOf": {
+                        "@type": "WebSite",
+                        "name": "Danifer24",
+                        "url": "index.html"
+                    },
+                    "about": {
+                        "@type": "Person",
+                        "name": "Danifer24"
+                    },
+                    "inLanguage": "es"
+                }
+            ]
+        }
+        </script>
 </head>
 <body>
-    <nav class="navbar">
-        <a href="index.html">Inicio</a>
-        <a href="sobre-mi.html">Sobre mí</a>
-        <a href="trayectoria.html">Trayectoria</a>
-        <a href="proximas-presentaciones.html">Próximas presentaciones</a>
-    </nav>
-    <section id="bienvenida">
-        <h1>Bienvenido a mi sitio web</h1>
-        <p>Descubre mi mundo artístico y creativo.</p>
-    </section>
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+    <header>
+        <nav class="navbar" aria-label="Navegación principal">
+            <a href="index.html" aria-current="page">Inicio</a>
+            <a href="sobre-mi.html">Sobre mí</a>
+            <a href="trayectoria.html">Trayectoria</a>
+            <a href="proximas-presentaciones.html">Próximas presentaciones</a>
+        </nav>
+    </header>
+    <main id="contenido-principal" tabindex="-1">
+        <section id="bienvenida" aria-labelledby="titulo-bienvenida">
+            <h1 id="titulo-bienvenida">Bienvenido a mi sitio web</h1>
+            <p>Descubre mi mundo artístico y creativo.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Danifer24</p>
+    </footer>
 </body>
 </html>
